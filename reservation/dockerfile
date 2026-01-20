@@ -1,0 +1,31 @@
+# Use an official Python image.
+FROM python:3.14-slim
+
+# Define the working directory inside the container.
+WORKDIR /reservation
+
+# Prevent Python from caching files.
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# Install the necessary system dependencies for the MySQL client.
+RUN apt-get update && apt-get install -y \
+    gcc \
+    default-libmysqlclient-dev \
+    pkg-config \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy the project files
+COPY requirements.txt /reservation/
+
+# Install Python dependencies
+RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
+
+RUN pip install django-extensions
+
+# Copy the rest of the code
+COPY . /reservation/
+
+# Default command to launch Django
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
