@@ -1,0 +1,106 @@
+[
+  {
+    "model": "api.artist",
+    "pk": 1,
+    "fields": {
+      "firstname": "Daniel",
+      "lastname": "Marcelin"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 2,
+    "fields": {
+      "firstname": "Philippe",
+      "lastname": "Laurent"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 3,
+    "fields": {
+      "firstname": "Marius",
+      "lastname": "Von Mayenburg"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 4,
+    "fields": {
+      "firstname": "Olivier",
+      "lastname": "Boudon"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 5,
+    "fields": {
+      "firstname": "Anne Marie",
+      "lastname": "Loop"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 6,
+    "fields": {
+      "firstname": "Pietro",
+      "lastname": "Varasso"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 7,
+    "fields": {
+      "firstname": "Laurent",
+      "lastname": "Caron"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 8,
+    "fields": {
+      "firstname": "Élena",
+      "lastname": "Perez"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 9,
+    "fields": {
+      "firstname": "Guillaume",
+      "lastname": "Alexandre"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 10,
+    "fields": {
+      "firstname": "Claude",
+      "lastname": "Semal"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 11,
+    "fields": {
+      "firstname": "Laurence",
+      "lastname": "Warin"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 12,
+    "fields": {
+      "firstname": "Pierre",
+      "lastname": "Wayburn"
+    }
+  },
+  {
+    "model": "api.artist",
+    "pk": 13,
+    "fields": {
+      "firstname": "Gwendoline",
+      "lastname": "Gauthier"
+    }
+  }
+]
